@@ -109,4 +109,35 @@ i {
 hr {
     color: #ff793f;
 }
+
+.studies {
+    color: #706fd3;
+    text-align: center; 
+    background-color: #ff793f;
+    height: 300px;
+    width: 100%;
     
+}
+
+.experiencie {
+    color: #ff793f;
+    text-align: center;
+    background-color: #ffb142;
+    height: 300px;
+    width: 100%;
+}
+    
+.contact {
+    color: #ffb142;
+    text-align: center;
+    background-color: aliceblue;
+    height: 300px;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: aqua;
+    height: 300px;
+    width: 100%;
+}
