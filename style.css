@@ -94,4 +94,19 @@ button {
 button:hover {
     background-color: red;
 }
+
+.fab fa-accessible-icon {
+    color: #ff793f
+}
+
+i {
+    color: #ff793f;
+    text-align: center;
+    margin: 50px
+
+}
+
+hr {
+    color: #ff793f;
+}
     
