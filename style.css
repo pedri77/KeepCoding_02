@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+}
+
+body {
+    /* font-family: 'Bungee Inline', cursive */
+    font-size: 20px;
+}
+
+/* Colors */
+/* https://flatuicolors.com/palette/es */
+/* #40407a Jacksons Purple */
+/* c64 purple #706fd3 */
+/* swan white #f7f1e3 */
+/* summer sky #34ace0 */
+/* Celestial green #33d9b2 */
+/* Fluorescent red #ff5252 */
+/* Synthetic pumkin #ff793f */
+/* Crocodile tooth #d1ccc0 */
+/* Madarin sorbet #ffb142 */
+/* Spiced Butternut #ffda79 */
+
+/* Google Fonts */
+/* font-family: 'Press Start 2P', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Share Tech Mono', monospace; */
+
+.wrapper-uno {
+    border: 1px solid #ff793f;
+    width: 100%;
+    height: 80vh;
+    background-image: url('./assets/nick-morrison-325805-unsplash.png')
+    /* background-repeat: no-repeat; */
+}
+
+/* https://1.bp.blogspot.com/-v7FOJ3QYVZI/Wm7Cezm7hVI/AAAAAAAArJI/rkQckZhVNlYVDQC9bxYy-wN5-rMu0adHwCLcBGAs/s1600/Mighty%2BFinal%2BFight%2Bpara%2BZX%2BSpectrum%2Btitulo.png */
+
+ul {
+    list-style-type: none;
+    font-size: 25px;
+    display: flex;
+    border: 2px solid red;
+    padding: 10px;
+    
+}
+nav>ul>li:hover {
+    background-color: #706fd3;
+}
+
+ul>li {
+    background-color:#ffb142;
+    font-size: 14px;
+    font-family: 'Press Start 2P', cursive;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #d1ccc0;
+    border-radius: 5px; 
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #34ace0; 
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10%;
+    font-family: font-family: 'Press Start 2P', cursive;
+    font-size: 20 px;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 16px;
+}
+
+.portada {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    background-color: #706fd3
