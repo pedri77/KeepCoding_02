@@ -28,7 +28,7 @@ font-family: 'Share Tech Mono', monospace; */
 .wrapper-uno {
     /* border: 1px solid #ff793f;   */
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background-image: url('./assets/nick-morrison-325805-unsplash.png')
     /* background-repeat: no-repeat; */
 }
@@ -75,7 +75,7 @@ h1 {
     text-transform: uppercase;
     color: #34ace0;
     margin-top: 10%;
-    font-family: font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P', cursive;
     font-size: 100px;    
 }
 
@@ -84,9 +84,13 @@ h2 {
     text-transform: uppercase;
     color: #d1ccc0;
     line-height: 1.2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
 }
+    
+}
 /* Revisar aniamación: */
+
 .wrapper-uno .title {
     /* Animacion */
     -webkit-animation-name: cambiarColor;
@@ -137,6 +141,7 @@ hr {
     
 }
 /* Elemento con animación */
+
 .experiencie {
     color: #ff793f;
     text-align: center;
@@ -163,13 +168,15 @@ hr {
     width: 100%;
 }
 
+/* Footer */
+
 footer {
     text-align: center;
     background-color: #84817a ;
-    padding: 20px;
+    padding: 10px;
     height: 400px;
     width: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 footer>ul>li {
@@ -184,6 +191,14 @@ footer>ul>li {
     text-decoration: none;
     color: #34ace0;
     width: 100px;
+}
+
+.nav-footer>li:hover{
+    background-color: #706fd3;
+}
+
+.nav-foooter-rrss>i:hover{
+    background-color: black;
 }
 
 /* Animacion */
