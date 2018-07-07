@@ -26,7 +26,7 @@ font-family: 'Bungee Inline', cursive;
 font-family: 'Share Tech Mono', monospace; */
 
 .wrapper-uno {
-    border: 1px solid #ff793f;  
+    /* border: 1px solid #ff793f;   */
     width: 100%;
     height: 80vh;
     background-image: url('./assets/nick-morrison-325805-unsplash.png')
@@ -35,16 +35,19 @@ font-family: 'Share Tech Mono', monospace; */
 
 /* https://1.bp.blogspot.com/-v7FOJ3QYVZI/Wm7Cezm7hVI/AAAAAAAArJI/rkQckZhVNlYVDQC9bxYy-wN5-rMu0adHwCLcBGAs/s1600/Mighty%2BFinal%2BFight%2Bpara%2BZX%2BSpectrum%2Btitulo.png */
 
-nav {
+/* header{
+    display:
+} */
+.navigation {
     display: flex;
     margin-left: 425px;
 }
 
-ul {
+.unorderlist {
     list-style-type: none;
     font-size: 25px;
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 10px;
     
 }
@@ -73,17 +76,26 @@ h1 {
     color: #34ace0;
     margin-top: 10%;
     font-family: font-family: 'Press Start 2P', cursive;
-    font-size: 20 px;
-    
+    font-size: 100px;    
 }
 
 h2 {
     text-align: center;
     text-transform: uppercase;
+    color: #d1ccc0;
     line-height: 1.2;
-    font-size: 16px;
+    font-size: 50px;
 }
-
+/* Revisar aniamación: */
+.wrapper-uno .title {
+    /* Animacion */
+    -webkit-animation-name: cambiarColor;
+    animation-name: cambiarColor;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
 button {
     background-color: #ffb142;
     float: none
@@ -93,7 +105,7 @@ button {
     font-size: 15px;
     border-radius: 4px;
     font-family: 'Press Start 2P', cursive;
-    border-radius 10px;
+    border-radius 5px;
 }
 
 button:hover {
@@ -119,19 +131,30 @@ hr {
     color: #706fd3;
     text-align: center; 
     background-color: #ff793f;
-    height: 300px;
-    width: 100%;
+    background-size: cover;
+    /* height: 300px;
+    width: 100%; */
     
 }
-
+/* Elemento con animación */
 .experiencie {
     color: #ff793f;
     text-align: center;
-    background-color: #ffb142;
-    height: 300px;
+    background-color: #ffb142; 
+    height: 300px; 
     width: 100%;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s
+    -webkit-animation-name: cambiarColor;
+    animation-name: cambiarColor;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 }
-    
+
+/* Elemento con animación */ 
+
 .contact {
     color: #ffb142;
     text-align: center;
@@ -142,7 +165,40 @@ hr {
 
 footer {
     text-align: center;
-    background-color: aqua;
-    height: 300px;
+    background-color: #84817a ;
+    padding: 20px;
+    height: 400px;
     width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
+footer>ul>li {
+    list-style-type: none;
+    width: 200px
+}
+
+.nav-footer {
+    display: flex;
+}
+.nav-link-footer {
+    text-decoration: none;
+    color: #34ace0;
+    width: 100px;
+}
+
+/* Animacion */
+
+@-webit-keyframes cambiarColor{
+    0% {background-color: #34ace0:},
+    50% {background-color: #ff793f;},
+    100%{background-color: antiquewhite;}
+
+}
+@keyframes cambiarColor{
+    0% {background-color: #34ace0:},
+    50% {background-color: #ff793f;},
+    100%{background-color: antiquewhite;}
+
+}
+/* Fin Animación */
+
