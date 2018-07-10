@@ -33,6 +33,12 @@ font-family: 'Share Tech Mono', monospace; */
     /* background-repeat: no-repeat; */
 }
 
+.nav img {
+    width: 35px;
+    height: 35px;
+    border: #34ace0 1px solid;
+}
+
 /* https://1.bp.blogspot.com/-v7FOJ3QYVZI/Wm7Cezm7hVI/AAAAAAAArJI/rkQckZhVNlYVDQC9bxYy-wN5-rMu0adHwCLcBGAs/s1600/Mighty%2BFinal%2BFight%2Bpara%2BZX%2BSpectrum%2Btitulo.png */
 
 /* header{
@@ -40,6 +46,7 @@ font-family: 'Share Tech Mono', monospace; */
 } */
 .navigation {
     display: flex;
+    float: right;
     margin-left: 425px;
 }
 
